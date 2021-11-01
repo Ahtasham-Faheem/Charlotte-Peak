@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: firstfont;
+    src: url(./font/century-gothic.ttf);
+}
+
+body {
+    background: url(./images/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    max-width: 100vw;
+    color: white;
+    font-family: firstfont;
+    margin: 0 auto;
+}
+
+.main-container header {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.main-container .inner-container {
+    width: 655px;
+    margin: 0 auto;
+}
+
+.main-container header ul {
+    text-align: center;
+}
+
+.main-container header ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 50px;
+}
+
+.main-container header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-size: 19px;
+
+}
+
+.main-container header ul li:last-child {
+    margin: 0px;
+}
+
+.main-container header ul li a:hover {
+    color: rgb(99, 99, 99);
+}
+
+.main-container header {
+    margin-bottom: 70px;
+}
+
+.main-container .title {
+    margin-bottom: 75px;
+}
+
+.main-container .title h1 {
+    font-size: 65px;
+    font-weight: 100;
+}
+
+.main-container .title h2 {
+    margin-left: 65px;
+    font-weight: 200;
+}
+
+.main-container .title h2 span {
+    font-size: 35px;
+}
+
+.main-container .content {
+    margin-bottom: 35px;
+}
+
+.main-container .content h2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.main-container .content .para-1 {
+    margin-bottom: 45px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.main-container .content .para-2 {
+    line-height: 25px;
+    text-align: justify;
+}
+
+.main-container footer ul a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-align: center;
+
+}
+
+.main-container footer ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main-container footer ul li:last-child {
+    margin: 0;
+}
+
+.main-container footer ul i {
+    font-size: 35px;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+.main-container footer a {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items:center ;
+}
+
+.main-container footer {
+    margin-bottom: 120px;
+}
